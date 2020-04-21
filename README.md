@@ -725,7 +725,7 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 	}
 	</script>
 
-###消除transition闪屏
+### 消除transition闪屏
 
 
 两个方法：使用css3动画的时尽量利用3D加速，从而使得动画变得流畅。动画过程中的动画闪白可以通过 backface-visibility 隐藏。
@@ -741,7 +741,7 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 	document.implementation.hasFeature("http:// www.w3.org/TR/SVG11/feature#Image", "1.1")
 	
 	
-##考虑兼容“隐私模式”(from <http://blog.youyo.name/archives/smarty-phones-webapp-deverlop-advance.html>)
+## 考虑兼容“隐私模式”(from <http://blog.youyo.name/archives/smarty-phones-webapp-deverlop-advance.html>)
 ios的safari提供一种“隐私模式”，如果你的webapp考虑兼容这个模式，那么在使用html5的本地存储的一种————localStorage时，可能因为“隐私模式”下没有权限读写localstorge而使代码抛出错误，导致后续的js代码都无法运行了。
 
 既然在safari的“隐私模式”下，没有调用localStorage的权限，首先想到的是先判断是否支持localStorage，代码如下：
